@@ -1,0 +1,101 @@
+#profile
+{
+    height: 70vh;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#profile .img-status
+{
+    flex-basis: 30%;
+    border-radius: 10px;
+}
+
+#profile .user-image
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50%;
+}
+
+#profile .user-image img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#profile .user-status
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#profile .user-status form
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-status form label
+{
+    height: 100%;
+    width: 100%;
+    background-color: #62CDFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#profile .info
+{
+    flex-basis: 68%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+#profile .user-attribute
+{
+    border-top: 1px solid rgb(155, 154, 154);
+    border-bottom: 1px solid rgb(155, 154, 154);
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+#profile .user-attribute .attr-name
+{
+    flex-basis: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#profile .user-attribute .attr-value
+{
+    flex-basis: 60%;
+}
+
+.fullname-profile input
+{
+    width: 100%;
+}

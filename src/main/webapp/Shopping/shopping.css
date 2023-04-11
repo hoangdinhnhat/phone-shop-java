@@ -1,0 +1,280 @@
+.slider
+{
+    position: relative;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 280px;
+}
+
+.slider .images
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider img
+{
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    transition: .7s;
+}
+
+.slider img:nth-child(1)
+{
+    transform: translateX(-100%);
+}
+
+.slider img:nth-child(3)
+{
+    transform: translateX(100%);
+}
+
+.slider img:nth-child(4)
+{
+    transform: translateX(200%);
+}
+
+.slider button
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.slider button:hover
+{
+    opacity: 1;
+}
+
+.slider .prev
+{
+    left: 10px;
+}
+
+.slider .next
+{
+    right: 10px;
+}
+
+
+.show-phone-list
+{
+    width: 60%;
+}
+
+.show-phone-list .phone-brand
+{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.show-phone-list .phone-brand h1
+{
+    margin-right: 10px;
+}
+
+.show-phone-list .phone-brand p
+{
+    font-size: 20px;
+    color: gray;
+}
+
+.show-phone-list .phone-type
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.show-phone-list .phone-type .title
+{
+    margin-top: 10px;
+}
+
+.show-phone-list .phone-type .type-products
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.show-phone-list .phone-item
+{
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.show-phone-list .phone-item:hover
+{
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+}
+
+.show-phone-list .phone-item:hover >img
+{
+    transform: scale(1.05);
+    transition: .7s;
+}
+
+.phone-type .type-products a img
+{
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.phone-type .type-products a .name
+{
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.phone-type .type-products a .des
+{
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+}
+
+#body .show-phone-list .list-phone
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-phone-list .list-phone div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-phone-list .list-phone div a
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.show-phone-list .list-phone div a img
+{
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.show-phone-list .list-phone div:hover > a > img
+{
+    transform: scale(1.05);
+    transition: .7s;
+}
+
+.show-phone-list .list-phone div .name
+{
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.show-phone-list .list-phone div .price
+{
+    text-align: center;
+    background-color: #cb1c22;
+    color: white;
+    font-size: 18px;
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 9999999px;
+    margin: 5px;
+}
+
+.show-phone-list .list-phone div .thongso
+{
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.show-phone-list .list-phone div .Add-Btn
+{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-phone-list .list-phone div .Add-Btn input[name="quantity"]
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.show-phone-list .list-phone div .Add-Btn input[name="action"]
+{
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb1c22!important;
+    width: 50%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#credential_picker_container
+{
+    margin-top: 70px;
+}
+

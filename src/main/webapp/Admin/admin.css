@@ -1,0 +1,104 @@
+
+
+#account-management {
+    background-color: white;
+    width: 70%;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account-management h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accounts {
+    border-radius: 10px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.account {
+    display: flex;
+    height: 15%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.account + .account {
+    margin-top: 10px;
+}
+
+.account div {
+    flex-basis: calc(100%/7);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.account div img {
+    width: 60%;
+}
+
+.account div input {
+    width: 100%;
+    font-size: 14px;
+}
+
+.account .account-btn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.account .account-fullName
+{
+    flex-basis: 28%;
+}
+
+.account .account-btn a {
+    color: white;
+}
+
+.account .account-btn input {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#account-management .page-sep {
+    display: flex;
+    height: 10%;
+}
+
+#account-management .page-link {
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    height: 30px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
